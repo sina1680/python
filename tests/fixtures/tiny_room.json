@@ -1,0 +1,23 @@
+{   
+    "room": "tiny room",
+    "size": 2,
+    "description": "You have entered the tiniest of halls. It is dark and cramped, you must get out quickly.",
+    "exit_text": "You have escaped the harrowed and tiny halls of doom!",
+    "next_level": "tiny_room_too.json",
+    "locations":
+    { 
+        "entrance": 
+        { 
+            "x": 0,
+            "y": 0,
+            "display": ">"
+        },
+        "exit": 
+        { 
+            "x": 1,
+            "y": 1,
+            "display": "<"
+        }
+    }
+}
+

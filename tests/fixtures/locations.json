@@ -1,0 +1,46 @@
+{
+    "entrance":
+    {
+        "x": 0,
+        "y": 3,
+        "display": ">"
+    },
+    "exit":
+    {
+        "x": 5,
+        "y": 5,
+        "display": "<"
+    },
+    "cockroach":
+    {
+        "x": 5,
+        "y": 0,
+        "display": "r",
+        "type": "creature",
+        "target": "exit"
+    },
+    "excalibur":
+    {
+        "x": 3,
+        "y": 9,
+        "display": "X",
+        "type": "weapon",
+        "description": "A powerful legendary sword powered by bacon.",
+        "damage": 20
+    },
+    "gold":
+    {
+        "x": 3,
+        "y": 3,
+        "display": "$",
+        "type": "item",
+        "quantity": 50
+    },
+    "malformed":
+    {
+        "bacon": "wonky?"
+    },
+    "empty":
+    {
+    }
+}

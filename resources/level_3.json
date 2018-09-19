@@ -1,0 +1,86 @@
+{
+    "room": "第三关",
+    "size": 25,
+    "exit_text": "final",
+    "description": "\t前方就像一个迷宫，找到出口，尽量活下去。",
+    "locations":
+    {
+        "entrance":
+        {
+            "x": 0,
+            "y": 0,
+            "display": "入"
+        },
+        "key":
+        {
+            "x": 0,
+            "y": 0,
+            "display": "钥"
+        },
+        "gold":
+        {
+            "x": 0,
+            "y": 0,
+            "display": "钱"
+        },
+        "exit":
+        {
+            "x": 0,
+            "y": 0,
+            "display": "出"
+        },
+        "恶狗1":
+        {
+            "x": 0,
+            "y": 0,
+            "display": "狗",
+            "type": "creature",
+            "target": "key"
+        },
+        "恶狗2":
+        {
+            "x": 0,
+            "y": 0,
+            "display": "狗",
+            "type": "creature",
+            "target": "food"
+        },
+        "恶狗3":
+        {
+            "x": 0,
+            "y": 0,
+            "display": "狗",
+            "type": "creature",
+            "target": "yao"
+        },
+        "野狼":
+        {
+            "x": 0,
+            "y": 0,
+            "display": "狼",
+            "type": "creature",
+            "target": "exit"
+        },		
+        "food":
+        {
+            "x": 0,
+            "y": 0,
+            "display": "食"
+        },
+        "yao":
+        {
+            "x": 0,
+            "y": 0,
+            "display": "药"
+        },
+        "spear":
+        {
+            "x": 0,
+            "y": 0,
+            "display": "枪",
+            "type": "weapon",
+            "description": "一把神枪，攻击50点，带10点误差。",
+            "damage": 1
+        }
+    }
+}

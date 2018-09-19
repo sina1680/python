@@ -1,0 +1,71 @@
+{
+    "room": "第一关",
+    "size": 10,
+    "exit_text": "你已经解锁第一关出口，并通过它进入黑暗和不祥的走廊。",
+    "description": "\t房间又黑又潮湿。出了房间在不远处能看到一条恶狗\n它正虎视眈眈的盯着你，找到出口，尽量活下去。",
+    "next_level": "level_2.json",
+    "locations":
+    {
+        "entrance":
+        {
+            "x": 1,
+            "y": 6,
+            "display": "入"
+        },
+        "key":
+        {
+            "x": 23,
+            "y": 0,
+            "display": "钥"
+        },
+        "gold":
+        {
+            "x": 2,
+            "y": 5,
+            "display": "钱"
+        },
+        "exit":
+        {
+            "x": 3,
+            "y": 4,
+            "display": "出"
+        },
+        "蟑螂":
+        {
+            "x": 3,
+            "y": 6,
+            "display": "蟑",
+            "type": "creature",
+            "target": "key"
+        },
+        "恶狗":
+        {
+            "x": 5,
+            "y": 8,
+            "display": "狗",
+            "type": "creature",
+            "target": "exit"
+        },       
+        "food":
+        {
+            "x": 1,
+            "y": 9,
+            "display": "食"
+        },
+        "yao":
+        {
+            "x": 0,
+            "y": 0,
+            "display": "药"
+        },
+        "excalibur":
+        {
+            "x": 1,
+            "y": 2,
+            "display": "剑",
+            "type": "weapon",
+            "description": "一把神剑(攻击力加20，带4点误差).",
+            "damage": 1
+        }
+    }
+}

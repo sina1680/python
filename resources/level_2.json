@@ -1,0 +1,78 @@
+{
+    "room": "第二关",
+    "size": 18,
+    "exit_text": "你已经解锁第二关出口，前面将有更加强大的怪物。",
+    "description": "\t前方就像一个迷宫，找到出口，尽量活下去。",
+    "next_level": "level_3.json",
+    "locations":
+    {
+        "entrance":
+        {
+            "x": 0,
+            "y": 0,
+            "display": "入"
+        },
+        "key":
+        {
+            "x": 0,
+            "y": 0,
+            "display": "钥"
+        },
+        "gold":
+        {
+            "x": 0,
+            "y": 0,
+            "display": "钱"
+        },
+        "exit":
+        {
+            "x": 0,
+            "y": 0,
+            "display": "出"
+        },
+        "蟑螂":
+        {
+            "x": 0,
+            "y": 0,
+            "display": "蟑",
+            "type": "creature",
+            "target": "key"
+        },
+        "恶狗1":
+        {
+            "x": 0,
+            "y": 0,
+            "display": "狗",
+            "type": "creature",
+            "target": "exit"
+        },
+        "恶狗2":
+        {
+            "x": 0,
+            "y": 0,
+            "display": "狗",
+            "type": "creature",
+            "target": "key"
+        }, 	
+        "恶狗3":
+        {
+            "x": 0,
+            "y": 0,
+            "display": "狗",
+            "type": "creature",
+            "target": "food"
+        },		
+        "food":
+        {
+            "x": 0,
+            "y": 0,
+            "display": "食"
+        },
+        "yao":
+        {
+            "x": 0,
+            "y": 0,
+            "display": "药"
+        }
+    }
+}
